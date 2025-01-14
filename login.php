@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" placeholder="Password" name="password" required>
 
         <button>Login</button>
-        <a href="register.php">Belum Punya Akun? Register</a>
+        <label>Belum Punya Akun? <a href="register.php">Register</a></label>
     </form>
 </body>
 
